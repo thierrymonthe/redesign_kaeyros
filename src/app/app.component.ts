@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private plugins: PluginsService, private router: Router) { }
 
-  title = 'xamin-angular';
+  title = 'Kaeyros Analytics';
 
   ngOnInit() {
     this.router.events.subscribe((evt) => {

@@ -11,11 +11,11 @@ import { topMenuBarItems } from '../../../constants/menu';
 export class IndexComponent implements OnInit {
 
   headeClass = 'style-two';
-  logoImage = './assets/images/logo_white.png';
+  logoImage = './assets/images/logo.png';
   footerLogoImage = './assets/images/logo.png';
   contactInfo: any = {
-    contactNumber: '+0123456789',
-    email: 'support@iqnonicthemes.com'
+    contactNumber: '+4923456789',
+    email: 'support@kaeyros-analytics.de'
   };
 
   constructor(private plugins: PluginsService) { }

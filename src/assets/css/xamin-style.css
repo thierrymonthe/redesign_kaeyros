@@ -189,7 +189,7 @@ header .navbar ul li .sub-menu li i { display: block; position: absolute; right:
 header .navbar ul li .sub-menu li i:before { content: "\f105"; }
 header .navbar ul li .sub-menu li:hover>a { background: #437eeb; color: #ffffff; }
 header .navbar ul li .sub-menu li:hover>i { color: #ffffff; }
-header .navbar ul li .sub-menu li:hover, header .navbar ul li a:hover, header .navbar ul li.current-menu-item a, header .navbar ul li.current-menu-parent a, header .navbar ul li.current-menu-parent  i, header .navbar ul li.current-menu-item i { color: #437eeb; }
+header .navbar ul li .sub-menu li:hover, header .navbar ul li a:hover, header .navbar ul li.current-menu-item a, header .navbar ul li.current-menu-parent a, header .navbar ul li.current-menu-parent  i, header .navbar ul li.current-menu-item i { color: #0f2a96; }
 
 /* header button */
 header .navbar .sub-main .blue-btn.button a { font-size: 14px; }
@@ -267,12 +267,12 @@ header.style-one.style-two .navbar ul li .sub-menu li:hover, header.style-one.st
 /*----------------------------------------------------------------------
                                 Buttons
 -----------------------------------------------------------------------*/
-.button { color: #ffffff; padding: 10px 30px; border: none; position: relative; display: inline-block; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; background: #313e5b; border-radius: 90px; cursor: pointer; z-index: 4; }
+.button { color: #0f2a96; padding: 10px 30px; border: none; position: relative; display: inline-block; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; background: #313e5b; border-radius: 90px; cursor: pointer; z-index: 4; }
 .button:hover { background: #437eeb; }
 .white-btn.button:hover, .blue-btn.button:hover { background: #313e5b; color: #ffffff; }
 .white-btn.button { color: #437eeb; background: #ffffff; }
 .white-btn.button:focus { color: #437eeb; }
-.blue-btn.button { color: #ffffff; background: #437eeb; display: inline-grid; }
+.blue-btn.button { color: #ffffff; background: #e75f00; display: inline-grid; }
 .blue-btn.button a { color: #ffffff; text-decoration: none; }
 .blue-btn.button:before { background: #313e5b; }
 .blue-btn.button:focus { color: #313e5b; }
@@ -288,7 +288,7 @@ header.style-one.style-two .navbar ul li .sub-menu li:hover, header.style-one.st
 .button.border-btn:hover { background: #437eeb; color: #ffffff; border-color: #437eeb; }
 .button.border-btn:active { background: #437eeb; color: #ffffff; border-color: #437eeb; }
 
-.button-link { color: #437eeb; font-weight: bold; }
+.button-link { color: #0f2a96; font-weight: bold; }
 .button-link:hover { color: #437eeb; text-decoration: none; }
 .button-link i { margin-left: 5px; }
 .button_link { color: #313e5b; font-weight: bold; font-family: 'Lato', sans-serif; }
@@ -347,7 +347,7 @@ article.hentry .iq-blog-box .iq-blog-detail .blog-content .widget_tag_cloud ul l
 .iq-blog-box .iq-blog-detail p { margin-bottom: 15px; }
 .iq-blog-box .iq-blogtag { margin: 0 0 0 15px; padding: 0; display: inline-block; width: 100%; position: absolute; bottom: 15px; left: 0; }
 .iq-blog-box .iq-blogtag li { list-style: none; float: left; margin-right: 5px; }
-.iq-blog-box .iq-blogtag li a { background: #437eeb; color: #ffffff; padding: 5px 10px; text-transform: uppercase; border-radius: 90px; font-size: 14px; }
+.iq-blog-box .iq-blogtag li a { background: #e75f00; color: #ffffff; padding: 5px 10px; text-transform: uppercase; border-radius: 90px; font-size: 14px; }
 .iq-blog-box .iq-blogtag li a:hover { text-decoration: none; background: #313e5b; color: #ffffff; }
 .has-post-thumbnail .iq-blog-box .iq-blog-detail { padding: 0px 30px 30px; display: inline-block; float: left; width: 100%; }
 .iq-blog-box .iq-blog-detail blockquote p { margin-bottom: 0; }
@@ -417,7 +417,8 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 .title-box.text-left p { margin-bottom: 0px }
 .title-box h2 { margin-bottom: 15px; }
 .title-box-space, .title-box.text-left.title-box-space { margin-bottom: 30px; }
-.title-box .title-design { font-family: 'Lato', sans-serif; font-weight: normal; color: #437eeb; display: inline-block; position: relative; text-transform: uppercase; }
+.title-box .title-design { font-family: 'Lato', sans-serif; font-weight: normal; color: #e75f00; display: inline-block; position: relative; text-transform: uppercase; }
+.title-box .subtitle-design {color: #0f2a96}
 .title-box.text-left { margin-bottom: 30px; }
 .title-box span.title-design.sub-title { color: #ffffff; }
 .title-box.text-white h2 { color: #ffffff; }
@@ -566,7 +567,7 @@ Leader team
 .consulting-blog .blog-details ul.list-inline li a { text-decoration: none; color: #525f81; }
 .consulting-blog .blog-details ul.list-inline li a:hover { text-decoration: none; color: #437eeb; }
 .consulting-blog .blog-details ul.list-inline li a i, .consulting-blog .blog-details ul.list-inline li i { color: #437eeb; }
-.consulting-blog .list-inline-item:not(:last-child) { margin-right: 20px; }
+.consulting-blog .list-inline-item:not(:last-child) { margin-right: 20px; color: #0f2a96 !important;}
 .consulting-blog .blog-button:hover { background: #437eeb; }
 .consulting-blog .blog-button { position: absolute; right: 15px; top: 30%; width: 40px; height: 40px; background: #313e5b; text-align: center; line-height: 40px; color: #ffffff; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; z-index: 3; }
 .consult-detail { overflow: hidden; position: relative; text-align: center; }
@@ -1659,6 +1660,7 @@ Testimonial Circle
 .iq-pb-40 { padding-bottom: 40px; }
 .iq-ptb-80 { padding: 80px 0; }
 .xamin-blue-bg { background-color: #437eeb !important; }
+.xamin-dark-blue-bg { background-color: #0f2a96 !important; }
 .xamin-primary-bg { background-color: #3f7be7 !important; }
 .primary-color { color: #3f7be7 !important; }
 

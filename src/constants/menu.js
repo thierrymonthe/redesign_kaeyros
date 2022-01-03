@@ -1,9 +1,9 @@
 const topMenuBarItems = [
   {
-    href: '/landing-page1',
+    href: '/landing-page2',
     title: 'Home  ',
     isCurrent: true,
-    submenu: [
+    /*submenu: [
       {
         href: '/landing-page1',
         title: 'Home One'
@@ -48,12 +48,12 @@ const topMenuBarItems = [
         href: '/landing-page11',
         title: 'Analytics In Marketing'
       }
-    ]
+    ]*/
   },
   {
     href: '/about-us',
     title: 'About Us ',
-    submenu: [
+    /*submenu: [
       {
         href: '/about-us',
         title: 'About Us One'
@@ -62,7 +62,7 @@ const topMenuBarItems = [
         href: '/about-us/about-us-two',
         title: 'About Us Two'
       }
-    ]
+    ]*/
   },
   {
     href: '/services',
