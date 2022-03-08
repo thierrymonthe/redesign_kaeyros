@@ -1651,7 +1651,7 @@ Testimonial Circle
 /*---------------------------------------------------------------------
                  Custom styling
 -----------------------------------------------------------------------*/
-.iq-ptb-100, section { padding: 100px 0; }
+.iq-ptb-100, section { padding: 50px 0; }
 .iq-ptb-70 { padding: 70px 0; }
 .iq-pt-70 { padding-top: 70px; }
 .iq-pb-70 { padding-bottom: 70px; }
@@ -1659,7 +1659,7 @@ Testimonial Circle
 .iq-pb-85 { padding-bottom: 85px; }
 .iq-pb-40 { padding-bottom: 40px; }
 .iq-ptb-80 { padding: 80px 0; }
-.xamin-blue-bg { background-color: #437eeb !important; }
+.xamin-blue-bg { background-color: #0f2a96 !important; }
 .xamin-dark-blue-bg { background-color: #0f2a96 !important; }
 .xamin-primary-bg { background-color: #3f7be7 !important; }
 .primary-color { color: #3f7be7 !important; }
