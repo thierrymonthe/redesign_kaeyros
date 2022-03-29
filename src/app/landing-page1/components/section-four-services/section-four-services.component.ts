@@ -16,7 +16,7 @@ export class SectionFourServicesComponent implements OnInit {
   navList: any[] = [
     {
       id: 'tab-big-data',
-      title: 'Big Data',
+      title: 'Data Analysis',
       img: '03.png',
       link: '/services',
       active: true,
@@ -49,7 +49,7 @@ export class SectionFourServicesComponent implements OnInit {
     },
     {
       id: 'tab-computer-vision',
-      title: 'Computer Vision',
+      title: 'Web Development',
       img: '04.png',
       link: '/services',
       subtitle: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',

@@ -44,7 +44,7 @@ export class TeamComponent implements OnInit {
 
     },
     {
-      img:  "a2.jpg",
+      img:  "a1.jpg",
       name: "Agnes AKANKWASA",
       position: "Working Student - Data Science",
       twitter_link: "#ff2",
@@ -62,7 +62,7 @@ export class TeamComponent implements OnInit {
 
     },
     {
-      img:  "eugene.jpg",
+      img:  "a1.jpg",
       name: "Eugène NDJAKA",
       position: "Web Developer",
       twitter_link: "#ff2",
@@ -71,7 +71,7 @@ export class TeamComponent implements OnInit {
 
     },
     {
-      img:  "me.jpg",
+      img:  "a1.jpg",
       name: "Pierre TOUBE",
       position: "Web Developer",
       twitter_link: "#ff2",

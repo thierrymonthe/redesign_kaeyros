@@ -22,7 +22,7 @@ export class AboutUsOneComponent implements OnInit {
   };
 
   titleSectionProp: any = {
-    title: 'ABOUT US',
+    title: 'OUR MISSION',
     subTitle: 'Human Behaviour, Data Science',
     description: 'It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout.'
   };

@@ -8,8 +8,8 @@ export class OurTeamComponent implements OnInit {
 
   titleSectionProp: any = {
     class:'text-center',
-    title: 'TEAM',
-    subTitle: 'Management Team',
+    title: 'OUR TEAM',
+    /* subTitle: 'Management Team', */
     description: ''
   };
   constructor() { }
