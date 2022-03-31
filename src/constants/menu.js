@@ -1,6 +1,9 @@
 const topMenuBarItems = [
   {
-    href: '/landing-page2',
+    /**
+     * Pour changer l'indexage vers la page d'accueil dans les autres pages, j'ai modifie la ligne 6 en pointant vers la landing page3
+     */
+    href: '/landing-page3',
     title: 'Home  ',
     isCurrent: true,
     /*submenu: [

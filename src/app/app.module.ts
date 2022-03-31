@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { XaminModule } from './xamin/xamin.module';
-import { LandingPage1Module } from './landing-page1/landing-page1.module';
-import { LandingPage2Module } from './landing-page2/landing-page2.module';
+import { XaminModule } from './xamin/xamin.module';/* 
+import { LandingPage1Module } from './landing-page1/landing-page1.module'; *//* 
+import { LandingPage2Module } from './landing-page2/landing-page2.module'; */
+import { LandingPage3Module } from './landing-page3/landing-page3.module';
 
 
 @NgModule({
@@ -16,9 +17,10 @@ import { LandingPage2Module } from './landing-page2/landing-page2.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    XaminModule,
-    LandingPage1Module,
-    LandingPage2Module,
+    XaminModule,/* 
+    LandingPage1Module, *//* 
+    LandingPage2Module, */
+    LandingPage3Module
   ],
   providers: [],
   bootstrap: [AppComponent]

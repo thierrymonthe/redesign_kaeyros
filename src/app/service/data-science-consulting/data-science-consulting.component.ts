@@ -10,8 +10,8 @@ export class DataScienceConsultingComponent implements OnInit {
 
   logoImage = './assets/images/logo.png';
   contactInfo: any = {
-    contactNumber: '+0123456789',
-    email: 'support@iqnonicthemes.com'
+    contactNumber: '+4923456789',
+    email: 'support@kaeyros-analytics.de'
   };
   public navItems: any = topMenuBarItems;
 
