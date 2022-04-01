@@ -8,8 +8,8 @@ export class WhyChooseUsComponent implements OnInit {
 
   List : any ={
     title:"WHY CHOOSE US",
-    subtitle : "Why Choose People Xamin",
-    desc : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
+    subtitle : "Why Choose Kaeyros Analytics",
+    desc : "Kaeyros analytics provides companies with professional expertise in the field of data analytics and to position itself from as the partner of choice in the client’s overall business strategy."
   };
   constructor() { }
 

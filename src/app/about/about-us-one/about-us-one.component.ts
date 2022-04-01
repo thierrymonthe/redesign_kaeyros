@@ -24,7 +24,7 @@ export class AboutUsOneComponent implements OnInit {
   titleSectionProp: any = {
     title: 'OUR MISSION',
     subTitle: 'Human Behaviour, Data Science',
-    description: 'It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout.'
+    description: 'To put our creativity and data-driven know-how at the service of our clients and to enable a successful digital transformation of their businesses and processes.'
   };
 
   Lists: any = {
