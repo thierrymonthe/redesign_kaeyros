@@ -80,7 +80,7 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
-  color: #313e5b;
+  color: #0f2a96;
   margin: 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
@@ -742,7 +742,7 @@ header .navbar ul li:last-child {
 }
 header .navbar ul li a {
   position: relative;
-  color: #313e5b;
+  color: black;
   padding: 0px 0px 0px 15px;
   line-height: 80px;
   position: relative;
@@ -756,14 +756,14 @@ header .navbar ul li a {
   -webkit-transition: all 0.3s ease-in-out;
   text-transform: capitalize;
   font-weight: bolder;
-  font-size: 1.20em; /*Here I change the size of navbar items elements*/
+  font-size: 1.2em; /*Here I change the size of navbar items elements*/
 }
 /*I change the color of the fa-angle-down icon and I separate it to the text*/
 header .navbar ul li i {
   display: inline-block;
   font-weight: bold;
   font-size: 16px;
-  color: #0f2a96;
+  color: black;
   margin-left: 10px;
 }
 header li .search-box .search-submit i {
@@ -908,11 +908,12 @@ header .navbar ul li .sub-menu li:hover > .sub-menu {
   box-shadow: 0px 1px 30px 0px rgba(36, 38, 43, 0.1);
 }
 
-/* Navigation Sticky */
+/* Navigation Sticky url("../images/slide3.png")*/
 header.menu-sticky .main-header {
   position: fixed;
   top: 0;
   background: #eff1fe;
+  /* background: url("../images/slide3.png"); */
 }
 header.menu-sticky .main-header .navbar ul li a {
   line-height: 65px;
@@ -960,15 +961,18 @@ header.style-one .sub-header .number-info li a {
   font-size: 14px;
   margin-right: 0;
 }
+
+/*I enhance color of mail and number text in the top side aof nav bar*/
 header.style-one .sub-header .number-info li a {
-  color: #525f81;
+  color: #0f2a96;
   line-height: 45px;
   padding: 0px;
   margin-right: 30px;
+  font-weight: bold;
 }
 header.style-one .sub-header .social-icone ul li i,
 header.style-one .sub-header .number-info li a i {
-  color: #313e5b;
+  color: #0f2a96;
 }
 header.style-one .sub-header .social-icone ul li:hover i,
 header.style-one .sub-header .number-info li:hover a i,

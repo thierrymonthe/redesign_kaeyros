@@ -8,22 +8,22 @@ export class CardSectionComponent implements OnInit {
 
   List : any[] = [
     {
-      img:"01.png",
+      img:"b20.jpg",
       title:"Perfect Event",
       sub_title:"big data through robust that solutions the power."
     },
     {
-      img:"02.png",
+      img:"data1.jpg",
       title:"Organization",
       sub_title:"big data through robust that solutions the power."
     },
     {
-      img:"03.png",
+      img:"b30.jpg",
       title:"Innovation",
       sub_title:"big data through robust that solutions the power."
     },
     {
-      img:"04.png",
+      img:"b10.jpg",
       title:"Perfect Event",
       sub_title:"big data through robust that solutions the power."
     },
