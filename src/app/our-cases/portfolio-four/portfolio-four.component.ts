@@ -10,7 +10,7 @@ export class PortfolioFourComponent implements OnInit {
 
   logoImage = './assets/images/logo.png';
   contactInfo: any = {
-    contactNumber: '+4923456789',
+    contactNumber: '+4917625748180',
     email: 'support@kaeyros-analytics.de'
   };
   public navItems: any = topMenuBarItems;

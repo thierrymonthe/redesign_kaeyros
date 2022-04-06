@@ -970,11 +970,25 @@ header.style-one .sub-header .number-info li a {
   margin-right: 30px;
   font-weight: bold;
 }
-header.style-one .sub-header .social-icone ul li i,
+/* header.style-one .sub-header .social-icone ul li i, */
 header.style-one .sub-header .number-info li a i {
   color: #0f2a96;
 }
-header.style-one .sub-header .social-icone ul li:hover i,
+/*Original Color of social media icone in header and footer*/
+header.style-one .sub-header .social-icone ul li a .fa-facebook-f,
+footer .info-share li a .fa-facebook-f {
+  color: #3B5998;
+}
+header.style-one .sub-header .social-icone ul li a .fa-twitter,
+footer .info-share li a .fa-twitter {
+  color: #1DA1F2;
+}
+header.style-one .sub-header .social-icone ul li a .fa-linkedin,
+footer .info-share li a .fa-linkedin {
+  color: #007BB5;
+}
+
+/* header.style-one .sub-header .social-icone ul li:hover i, */
 header.style-one .sub-header .number-info li:hover a i,
 header.style-one .sub-header .number-info li:hover a {
   color: #0f2a96;
@@ -3251,9 +3265,9 @@ footer .copyright-footer {
   border-top: 1px solid rgba(82, 95, 129, 0.09);
   position: relative;
 }
-footer .info-share li a {
+/* footer .info-share li a {
   color: #313e5b;
-}
+} */
 footer input[type="email"]:hover,
 footer input[type="email"]:focus {
   border-color: #0f2a96;
