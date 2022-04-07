@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 export class ServiceComponent implements OnInit {
 
   titleSectionProp: any = {
-    title: 'LETS GET STARTED',
-    subTitle: 'Are you ready for a better, more productive business?',
+    title: 'OUR PARTICULARITY',
+    subTitle: 'We offer maintenance services if need be',
     description: ''
   };
 
   Lists: any = {
     isOuter: true,
-    img: '11.png',
-    desc: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English."
+    img: 'b30.jpg',
+    desc: "After the proposed solutions and tools are implemented, we, in addition, undertake the process of building and transferring knowledge and skills to ensure that these solutions become a sustained competitive advantage."
   };
   constructor() { }
 

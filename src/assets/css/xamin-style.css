@@ -4058,14 +4058,14 @@ About style home-2
   width: 100%;
 }
 .xamin-process.xamin-circle.right:before {
-  background-image: url("../images/26.png");
+  background-image: url("../images/27.png");
   content: "";
   display: inline-block;
   position: absolute;
-  top: 30px;
+  top: 68px;
   right: -145px;
   background-repeat: no-repeat;
-  width: 240px;
+  width: 218px;
   height: 200px;
 }
 .xamin-process.xamin-circle .circle-effect {

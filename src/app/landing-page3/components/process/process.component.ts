@@ -9,12 +9,12 @@ export class ProcessComponent implements OnInit {
   titleSectionProp: any = {
     class: 'text-center',
     title: 'PROCESS',
-    subTitle:  'Our Software Testing Process'
+    subTitle:  'Our Software Development and Testing Process'
   };
 
   circle1Data: any = {
-    img: '01.png',
-    title: 'Data for all your people',
+    img: 'design.jpg',
+    title: 'Analysis and Design',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '0.6s',
     positionClass: 'right',
@@ -24,8 +24,8 @@ export class ProcessComponent implements OnInit {
 
   circle2Data: any = {
     class: 'mt-4 mt-md-0',
-    img: '02.png',
-    title: 'A new breed of AI',
+    img: 'development.png',
+    title: 'Development',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '1s',
     positionClass: 'right',
@@ -35,13 +35,24 @@ export class ProcessComponent implements OnInit {
 
   circle3Data: any = {
     class: 'mt-4 mt-md-0',
-    img: '03.png',
-    title: 'Analytics business',
+    img: 'testing.png',
+    title: 'Test',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '1.4s',
+    /* positionClass: 'right', */
     type:'xamin-process'
 
   };
+/* 
+  circle4Data: any = {
+    class: 'mt-4 mt-md-0',
+    img: 'testing.png',
+    title: 'Test',
+    description: 'It is a long established fact that a reader will be distracted by the of readable.',
+    delay: '1.8s',
+    type:'xamin-process'
+
+  }; */
 
 
   constructor() { }
