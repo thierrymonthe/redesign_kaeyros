@@ -976,15 +976,18 @@ header.style-one .sub-header .number-info li a i {
 }
 /*Original Color of social media icone in header and footer*/
 header.style-one .sub-header .social-icone ul li a .fa-facebook-f,
-footer .info-share li a .fa-facebook-f {
+footer .info-share li a .fa-facebook-f,
+.contact-box .service-detail ul li a .fa-facebook-f {
   color: #3B5998;
 }
 header.style-one .sub-header .social-icone ul li a .fa-twitter,
-footer .info-share li a .fa-twitter {
+footer .info-share li a .fa-twitter,
+.contact-box .service-detail ul li a .fa-twitter {
   color: #1DA1F2;
 }
 header.style-one .sub-header .social-icone ul li a .fa-linkedin,
-footer .info-share li a .fa-linkedin {
+footer .info-share li a .fa-linkedin,
+.contact-box .service-detail ul li a .fa-linkedin  {
   color: #007BB5;
 }
 
@@ -4870,12 +4873,12 @@ consult-contact box
 .contact-box .service-detail ul li {
   margin-right: 15px;
 }
-.contact-box .service-detail ul li a i:hover {
+/* .contact-box .service-detail ul li a i:hover {
   color: #0f2a96;
-}
+} */
 .contact-box .service-detail ul li a i {
   font-size: 18px;
-  color: #525f81;
+  /* color: #525f81; */
   background: transparent;
   display: inline-block;
   width: auto;
@@ -7346,10 +7349,10 @@ section {
 .iq-breadcrumb-one h2 {
   color: #313e5b !important;
 }
-.iq-bg-over {
+/* .iq-bg-over {
   background: #eff1fe !important;
-}
-/* .iq-bg-over { background: url(../images/banner/b.jpg);} */
+} */
+.iq-bg-over { background: url(../images/slider4.png);}
 .iq-over-dark-90 {
   background: #eff1fe !important;
 }

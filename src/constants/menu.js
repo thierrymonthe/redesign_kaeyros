@@ -73,28 +73,28 @@ const topMenuBarItems = [
     submenu : [
       {
         href: '/services/data-analytics',
-        title: 'Data Analytics'
+        title: 'Data Science'
       },
       {
         href: '/services/managed-analytics',
-        title: 'Managed Analytics'
+        title: 'Cloud Computing'
       },
       {
         href: '/services/big-data-services',
-        title: 'Big Data Services'
+        title: 'Machine Learning'
       },
       {
         href: '/services/data-science-consulting',
-        title: 'Data Science Consulting'
+        title: 'Web Development'
       },
       {
         href: '/services/business-intelligence',
-        title: 'Business Intelligence'
+        title: 'Strategic Consulting'
       },
       {
         href: '/services/data-visualization-services',
-        title: 'Data Visualization'
-      },
+        title: 'User training'
+      }/* ,
       {
         href: '/services/data-management',
         title: 'Data Management'
@@ -102,14 +102,14 @@ const topMenuBarItems = [
       {
         href: '/services/artificial-intelligence',
         title: 'Artificial Intelligence'
-      }
+      } */
     ]
   },
   {
     href: '/our-cases/portfolio-2-columns',
-    title: 'Our Cases',
+    title: 'Uses Cases',
     submenu: [
-      {
+      /* {
         href: '#portfolio',
         title: 'Portfolio',
         submenu:[
@@ -134,22 +134,22 @@ const topMenuBarItems = [
             title: 'Portfolio No Space'
           }
         ]
-      },
+      }, */
       {
         href: '/our-cases/masonry-2-portfolio',
-        title: 'Masonry 2 Portfolio'
+        title: 'Use Case 1'
       },
       {
         href: '/our-cases/masonry-3-portfolio',
-        title: 'Masonry 3 Portfolio'
+        title: 'Use Case 2'
       },
       {
         href: '/our-cases/masonry-no-space',
-        title: 'Masonry No Space'
+        title: 'Use Case 3'
       },
       {
         href: '/our-cases/portfolio-details',
-        title: 'Portfolio Details'
+        title: 'USe Case 4'
       }
     ]
   },
@@ -157,25 +157,25 @@ const topMenuBarItems = [
     href: '/blog',
     title: 'Blog',
     submenu: [
-      {
+      /* {
         href: '/blog',
         title: 'Blog'
-      },
-      {
+      }, */
+      /* {
         href: '#blog-grid',
         title: 'Blog Grid',
         submenu: [
           {
             href: '/blog/blog-one-column-grid',
-            title: 'One Column Blog'
+            title: 'Blog 1'
           },
           {
             href: '/blog/blog-two-column-grid',
-            title: 'Two Column Blog'
+            title: 'Blog 2'
           },
           {
             href: '/blog/blog-three-column-grid',
-            title: 'Three Column Blog',
+            title: 'Blog 3',
           }
         ]
       },
@@ -206,10 +206,18 @@ const topMenuBarItems = [
             title: 'Left Sidebar Grid 1'
           }
         ]
-      },
+      }, */
       {
         href: '/blog/blog-details',
-        title: 'Blog Details'
+        title: 'Blog 1'
+      },
+      {
+        href: '/blog/blog-one-column-grid',
+        title: 'Blog 2'
+      },
+      {
+        href: '/blog/blog-two-column-grid',
+        title: 'Blog 3'
       }
     ]
   },
@@ -225,10 +233,10 @@ const topMenuBarItems = [
         href: '/pages/client',
         title: 'Clients'
       },
-      {
+      /* {
         href: '/pages/career',
         title: 'Careers',
-      },
+      }, */
       {
         href: '/pages/contact-us',
         title: 'Contact Us',

@@ -21,16 +21,16 @@ export class ContactUsComponent implements OnInit {
 
   List : any[] =[
     {
-      title:"USA Office",
+      title:"Germany Office",
+      address:"1234 North Avenue Luke Lane, South Bend, IN 360001 Phone:+4917625748180"
+    },
+    {
+      title:"Belgium Office",
       address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
     },
     {
-      title:"Australia Office",
-      address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
-    },
-    {
-      title:"New zealand Office",
-      address:"Michael I. Days 3756 Preston Street Wichita, KS 67213 Phone:857-778-1265"
+      title:"Cameroon Office",
+      address:"Yaounde-Biyemassi, Rond Point Express Phone:+237691966876"
     }
 
   ]
