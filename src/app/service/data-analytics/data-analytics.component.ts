@@ -1,3 +1,6 @@
+/**Here we have the component of Data Science service instead of Data analytics
+ * 
+ */
 import { Component, OnInit } from '@angular/core';
 import { PluginsService } from '../../xamin/plugins.service';
 import { topMenuBarItems } from '../../../constants/menu';
@@ -16,20 +19,20 @@ export class DataAnalyticsComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Data Analytics",
+    title:"Data Science",
     img:"05.png"
   };
 
   public activeMenu = '/services/data-analytics';
 
   images: any[] = [
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" },
-    { image: "./assets/images/about-us/03.png" },
-    { image: "./assets/images/about-us/04.png" }
+    { image: "./assets/images/services/sc1.png" },
+    { image: "./assets/images/services/sc2.png" },
+    { image: "./assets/images/services/sc3.png" },
+    { image: "./assets/images/services/sc4.png" }/* ,
+    { image: "./assets/images/services/04.png" },
+    { image: "./assets/images/services/03.png" },
+    { image: "./assets/images/services/04.png" } */
   ];
 
   className= " ";

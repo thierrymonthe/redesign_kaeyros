@@ -1,3 +1,7 @@
+/**Here we have the component of Cloud Computing service instead of Managed Analytics 
+ * 
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { PluginsService } from '../../xamin/plugins.service';
 import { topMenuBarItems } from '../../../constants/menu';
@@ -16,13 +20,23 @@ export class ManagedAnalyticsComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Managed Analytics",
+    title:"Cloud Computing",
     img:"05.png"
   };
 
   public activeMenu = '/services/managed-analytics';
      
   className=" ";
+
+  images: any[] = [
+    { image: "./assets/images/services/cl1.png" },
+    { image: "./assets/images/services/cl2.png" },
+    { image: "./assets/images/services/cl3.png" }/* ,
+    { image: "./assets/images/services/sc4.png" },
+    { image: "./assets/images/services/04.png" },
+    { image: "./assets/images/services/03.png" },
+    { image: "./assets/images/services/04.png" } */
+  ];
 
   checkList1 : any[] = [
     'Efficiently manage and govern ongoing operations of analytics processes',

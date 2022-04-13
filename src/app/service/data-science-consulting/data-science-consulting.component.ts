@@ -16,13 +16,23 @@ export class DataScienceConsultingComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Data Science Consulting",
+    title:"Web Development",
     img:"07.png"
   };
 
   public activeMenu = '/services/data-science-consulting';
      
   className=" ";
+
+  images: any[] = [
+    { image: "./assets/images/services/w1.png" },
+    { image: "./assets/images/services/w2.png" },
+    { image: "./assets/images/services/w3.png" }/* ,
+    { image: "./assets/images/services/sc4.png" },
+    { image: "./assets/images/services/04.png" },
+    { image: "./assets/images/services/03.png" },
+    { image: "./assets/images/services/04.png" } */
+  ];
 
   checkList= [
     'Predictive maintenance',

@@ -8,14 +8,14 @@ export class AboutUsComponent implements OnInit {
 
   titleSectionProp: any = {
     title: 'ABOUT US',
-    subTitle: 'Focused on Actionable Insights',
-    description: 'Kaeyros Analytics is a Germany-based provider of Data Product & Software development services, consultancy and digital training services with an international expert Team of Data Scientists, Softwares Engineers and Analysts across Europe and Africa.'
+    subTitle: 'From Data to Value',
+    description: 'Kaeyros Analytics is a Germany-based provider of Data Product & Software Development Services, Consultancy and Digital Training Services with an International Expert Team of Data Scientists, Softwares Engineers and Analysts across Europe and Africa.'
   };
 
   Lists: any = {
     isOuter: false,
     img: 'b2.jpg',
-    desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distractedMany desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for"
+    desc:""
   };
 
   constructor() { }

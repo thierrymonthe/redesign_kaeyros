@@ -17,19 +17,19 @@ export class NavTabsComponent implements OnInit {
     {
       id: 'tab-big-data',
       title: 'Data Analysis',
-      img: '03.png',
+      img: 's1.png',
       link: '/services',
       active: true,
       subtitle: 'Choose Your Software Development Service by Category',
-      desc: 'Tame your big data through robust solutions that empower data collection, storage, processing and analysis.',
-      chkList1: ['Advance Advisory Team', 'Simply dummy text of the'],
-      chkList2: ['Professional Consulting Services', 'It is a long established fact.'],
-      chkList3: ['24/7 Support Help Center', 'will be distracted by the of readable']
+      desc: 'Our data analysis process involves four main steps.',
+      chkList1: ['Raw Data collection.', 'Data Cleaning.'],
+      chkList2: ['Exploratory and Descriptive Study', 'Reports and visualization.']/* ,
+      chkList3: ['24/7 Support Help Center', 'will be distracted by the of readable'] */
     },
     {
       id: 'tab-machine-learning',
       title: 'Machine Learning',
-      img: '02.png',
+      img: 's2.png',
       link: '/services',
       subtitle: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',
       subtitle2: 'Dignissimos ducimus qui blanditiis',
@@ -38,8 +38,8 @@ export class NavTabsComponent implements OnInit {
     },
     {
       id: 'tab-analytical-ai',
-      title: 'Analytical AI',
-      img: '01.png',
+      title: 'Cloud Computing',
+      img: 's3.png',
       link: '/services',
       subtitle: 'Choose Your Software Development Service by Category',
       desc: 'Tame your big data through robust solutions that empower data collection, storage, processing and analysis.',
@@ -49,8 +49,8 @@ export class NavTabsComponent implements OnInit {
     },
     {
       id: 'tab-computer-vision',
-      title: 'Web Development',
-      img: '04.png',
+      title: 'Data Science',
+      img: 's4.png',
       link: '/services',
       subtitle: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis',
       subtitle2: 'Dignissimos ducimus qui blanditiis',

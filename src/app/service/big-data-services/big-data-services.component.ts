@@ -1,3 +1,6 @@
+/**Here we have the component of Machine Learning service instead of Big data 
+ * 
+ */
 import { Component, OnInit } from '@angular/core';
 import { PluginsService } from '../../xamin/plugins.service';
 import { topMenuBarItems } from '../../../constants/menu';
@@ -16,7 +19,7 @@ export class BigDataServicesComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Big Data Services",
+    title:"Machine Learning",
     img:"06.png"
   };
 
@@ -24,12 +27,22 @@ export class BigDataServicesComponent implements OnInit {
      
   className=" ";
 
-  List: any[] = [
+  images: any[] = [
+    { image: "./assets/images/services/ml1.png" },
+    { image: "./assets/images/services/ml2.png" },
+    { image: "./assets/images/services/ml3.png" },
+    { image: "./assets/images/services/ml4.png" }/* ,
+    { image: "./assets/images/services/04.png" },
+    { image: "./assets/images/services/03.png" },
+    { image: "./assets/images/services/04.png" } */
+  ];
+
+  /* List: any[] = [
     { title: 'Apache Hadoop', image: './assets/images/about-us/03.png', desc: 'It is a long established.'},
     { title: 'Apache Spark', image: './assets/images/about-us/04.png', desc: 'It is a long established.'},
     { title: 'Apache Cassandra', image: './assets/images/about-us/05.png', desc: 'It is a long established.'},
     { title: 'Big Data Consulting', image: './assets/images/about-us/04.png', desc: 'It is a long established.'},
-  ];
+  ]; */
   checkList1 : any[] = [
     'Simply dummy text of the Lorem Ipsum.',
     'There are many variations of passages.',

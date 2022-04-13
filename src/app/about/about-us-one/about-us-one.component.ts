@@ -23,28 +23,28 @@ export class AboutUsOneComponent implements OnInit {
 
   titleSectionProp: any = {
     title: 'OUR MISSION',
-    subTitle: 'Human Behaviour, Data Science',
+    subTitle: 'We Make Digital Possible',
     description: 'To put our creativity and data-driven know-how at the service of our clients and to enable a successful digital transformation of their businesses and processes.'
   };
 
   Lists: any = {
     isOuter: false,
-    img: '06.png',
+    img: 'd1.png',
     chkList: ['Advance Advisory Team', 'Professional Consulting Services', '24/7 Support Help Center', 'Customer Service & Operations']
   };
 
   cardData: any[] = [
     {
-      title : "Data for all people",
-      desc : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      title : "The name Kaeyros",
+      desc : "Kaïros is the God of opportunity, of the right moment! The one you have to grab when it passes, after that it's too late!"
     },
     {
-      title : "A new breed of AI",
-      desc : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      title : "Kaïros in Latin",
+      desc : "In Latin, Kaïros means Opportunitas (Opportunity, to size the opportunity). Do the right deed at the right time."
     },
     {
-      title : "Analytics business",
-      desc : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      title : "Kaeyros the Super Heros",
+      desc : "Endowed with Powers, he is able to accomplish feats. Kaeyros is therefore like this Super Heros, which offers indefinitely Solutions to the needs and the expectations of its customers. "
     },
   ];
 

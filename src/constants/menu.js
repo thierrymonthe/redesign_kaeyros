@@ -4,7 +4,7 @@ const topMenuBarItems = [
      * Pour changer l'indexage vers la page d'accueil dans les autres pages, j'ai modifie la ligne 6 en pointant vers la landing page3
      */
     href: '/landing-page3',
-    title: 'Home  ',
+    title: 'Home',
     isCurrent: true,
     /*submenu: [
       {
@@ -68,8 +68,8 @@ const topMenuBarItems = [
     ]*/
   },
   {
-    href: '/services',
-    title: 'Service',
+    href: '/services/data-analytics',
+    title: 'Services',
     submenu : [
       {
         href: '/services/data-analytics',
@@ -244,32 +244,40 @@ const topMenuBarItems = [
     ]
   }
 ];
+/**Corespondences
+ * Data Analytics matches Data Science
+ * Managed Analytics matches Cloud Computing
+ * Big Data matches Machine Learning
+ * Data science consulting matches Web Development
+ * Business Intelligence matches Strategic Consulting
+ * Data visualization services matches User Training
+ */
 
 const servicesMenu =  [
   {
     href: '/services/data-analytics',
-    title: 'Data Analytics'
+    title: 'Data Science'
   },
   {
     href: '/services/managed-analytics',
-    title: 'Managed Analytics'
+    title: 'Cloud Computing'
   },
   {
     href: '/services/big-data-services',
-    title: 'Big Data Services'
+    title: 'Machine Learning'
   },
   {
     href: '/services/data-science-consulting',
-    title: 'Data Science Consulting'
+    title: 'Web Development'
   },
   {
     href: '/services/business-intelligence',
-    title: 'Business Intelligence'
+    title: 'Strategic Consulting'
   },
   {
     href: '/services/data-visualization-services',
-    title: 'Data Visualization'
-  },
+    title: 'User Training'
+  }/* ,
   {
     href: '/services/data-management',
     title: 'Data Management'
@@ -277,7 +285,7 @@ const servicesMenu =  [
   {
     href: '/services/artificial-intelligence',
     title: 'Artificial Intelligence'
-  }
+  } */
 ];
 
 export { servicesMenu, topMenuBarItems };

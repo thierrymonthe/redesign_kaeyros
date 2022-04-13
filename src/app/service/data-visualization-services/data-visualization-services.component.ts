@@ -1,3 +1,7 @@
+/**Here we have the component of User Training service instead of data visualization
+ * 
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { PluginsService } from '../../xamin/plugins.service';
 import { topMenuBarItems } from '../../../constants/menu';
@@ -17,7 +21,7 @@ export class DataVisualizationServicesComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Data Visualization Services",
+    title:"User Training",
     img:"05.png"
   };
 

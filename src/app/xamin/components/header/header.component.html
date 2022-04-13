@@ -9,7 +9,8 @@
               <a href="mailto:{{ contactInfo.email }}"><i class="fa fa-envelope"></i>{{ contactInfo.email }}</a>
             </li>
             <li class="list-inline-item">
-              <a href="tel:{{ contactInfo.contactNumber }}"><i class="fa fa-phone"></i>{{ contactInfo.contactNumber }}</a>
+              <a href="tel:{{ contactInfo.contactNumber }}"><i class="fa fa-phone"></i>{{ contactInfo.contactNumber
+                }}</a>
             </li>
           </ul>
         </div>
@@ -36,22 +37,30 @@
       <div class="col-sm-12">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">
-            <img id="{{ logoId ? 'logo_img' : '' }}" class="img-fluid logo" src="{{ logoImg }}" alt="Xamin"/>
+            <img id="{{ logoId ? 'logo_img' : '' }}" class="img-fluid logo" src="{{ logoImg }}" alt="Xamin" />
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="ion-navicon"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="menu-main-menu-container">
               <ul id="top-menu" class="navbar-nav ml-auto">
-                <li class="menu-item {{ option.isCurrent !== undefined && option.isCurrent ? 'current-menu-item' : '' }}" *ngFor="let option of navItemList">
-                  <a href="{{ option.href }}">{{ option.title }}</a><i *ngIf="option.submenu" class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
+                <li
+                  class="menu-item {{ option.isCurrent !== undefined && option.isCurrent ? 'current-menu-item' : '' }}"
+                  *ngFor="let option of navItemList">
+                  <a [routerLink]=" option.href ">{{ option.title }}</a><i *ngIf="option.submenu"
+                    class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
                   <ul class="sub-menu" *ngIf="option.submenu">
-                    <li *ngFor="let child of option.submenu" class="menu-item {{ child.isCurrent !== undefined && child.isCurrent ? 'current-menu-item' : '' }}">
-                      <a class="isubmenu" [routerLink]="child.href" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">{{ child.title }}</a><i *ngIf="child.submenu" class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
+                    <li *ngFor="let child of option.submenu"
+                      class="menu-item {{ child.isCurrent !== undefined && child.isCurrent ? 'current-menu-item' : '' }}">
+                      <a class="isubmenu" [routerLink]="child.href" [routerLinkActive]="['active']"
+                        [routerLinkActiveOptions]="{exact: true}">{{ child.title }}</a><i *ngIf="child.submenu"
+                        class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
                       <ul class="sub-menu" *ngIf="child.submenu">
                         <li class="menu-item" *ngFor="let subchild of child.submenu">
-                          <a class="isubmenu" [routerLink]="subchild.href" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">{{ subchild.title }}</a>
+                          <a class="isubmenu" [routerLink]="subchild.href" [routerLinkActive]="['active']"
+                            [routerLinkActiveOptions]="{exact: true}">{{ subchild.title }}</a>
                         </li>
                       </ul>
                     </li>

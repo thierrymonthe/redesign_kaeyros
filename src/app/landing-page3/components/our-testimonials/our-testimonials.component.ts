@@ -9,7 +9,7 @@ export class OurTestimonialsComponent implements OnInit {
   titleSectionProp: any = {
     class: 'text-center',
     title: 'Testimonials',
-    subTitle: '100+ Companies are Using Xamin',
+    subTitle: '10+ Companies Trust Kaeyros Analytics',
   };
 
   List : any[] = [

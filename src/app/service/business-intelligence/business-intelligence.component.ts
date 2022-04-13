@@ -1,3 +1,6 @@
+/**Here we have the component of Strategic Consulting service instead of business intelligence
+ * 
+ */
 import { Component, OnInit } from '@angular/core';
 import { PluginsService } from '../../xamin/plugins.service';
 import { topMenuBarItems } from '../../../constants/menu';
@@ -18,7 +21,7 @@ export class BusinessIntelligenceComponent implements OnInit {
   public navItems: any = topMenuBarItems;
 
   data : any = {
-    title:"Business Intelligence",
+    title:"Strategic Consulting",
     img:"02.png"
   };
 
