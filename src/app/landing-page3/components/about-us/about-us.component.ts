@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutUsComponent implements OnInit {
 
   titleSectionProp: any = {
-    title: 'ABOUT US',
+    title: 'OUR VISION',
     subTitle: 'From Data to Value',
     description: 'Kaeyros Analytics is a Germany-based provider of Data Product & Software Development Services, Consultancy and Digital Training Services with an International Expert Team of Data Scientists, Softwares Engineers and Analysts across Europe and Africa.'
   };

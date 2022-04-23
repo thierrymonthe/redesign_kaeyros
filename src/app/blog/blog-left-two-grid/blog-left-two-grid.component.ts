@@ -11,7 +11,7 @@ export class BlogLeftTwoGridComponent implements OnInit {
   logoImage = './assets/images/logo.png';
   contactInfo: any = {
     contactNumber: '+4917625748180',
-    email: 'support@kaeyros-analytics.de'
+    email: 'info@kaeyros-analytics.de'
   };
   public navItems: any = topMenuBarItems;
 

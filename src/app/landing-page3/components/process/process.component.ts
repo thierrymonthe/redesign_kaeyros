@@ -14,7 +14,7 @@ export class ProcessComponent implements OnInit {
 
   circle1Data: any = {
     img: 'design.jpg',
-    title: 'Analysis and Design',
+    title: 'Analysis & Design',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '0.6s',
     positionClass: 'right',
@@ -25,7 +25,7 @@ export class ProcessComponent implements OnInit {
   circle2Data: any = {
     class: 'mt-4 mt-md-0',
     img: 'development.png',
-    title: 'Development',
+    title: 'Development & Test',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '1s',
     positionClass: 'right',
@@ -36,7 +36,7 @@ export class ProcessComponent implements OnInit {
   circle3Data: any = {
     class: 'mt-4 mt-md-0',
     img: 'testing.png',
-    title: 'Test',
+    title: 'Production',
     description: 'It is a long established fact that a reader will be distracted by the of readable.',
     delay: '1.4s',
     /* positionClass: 'right', */

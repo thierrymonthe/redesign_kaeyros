@@ -73,19 +73,19 @@ const topMenuBarItems = [
     submenu : [
       {
         href: '/services/data-analytics',
-        title: 'Data Science'
+        title: 'Data Science & Advanced Analytics'
       },
       {
         href: '/services/managed-analytics',
-        title: 'Cloud Computing'
+        title: 'Cloud Analytics'
       },
       {
         href: '/services/big-data-services',
-        title: 'Machine Learning'
+        title: 'Digital Transformation'
       },
       {
         href: '/services/data-science-consulting',
-        title: 'Web Development'
+        title: 'Web & Software Development'
       },
       {
         href: '/services/business-intelligence',

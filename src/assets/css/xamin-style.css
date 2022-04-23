@@ -4023,6 +4023,8 @@ About style home-2
 .contact-detail.consult-services {
   padding: 60px 30px;
   background: #eff1fe;
+  /*Height of contact details box in contact-us */
+  height: 311px;
 }
 .consult-services {
   padding: 30px;
