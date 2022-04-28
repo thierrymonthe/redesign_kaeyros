@@ -913,7 +913,8 @@ header .navbar ul li .sub-menu li:hover > .sub-menu {
 header.menu-sticky .main-header {
   position: fixed;
   top: 0;
-  background: #eff1fe;
+  /* background: #eff1fe; */
+  background: #9bd2ee;
   /* background: url("../images/slide3.png"); */
 }
 header.menu-sticky .main-header .navbar ul li a {
@@ -2716,7 +2717,7 @@ Leader team
   line-height: 2em;
 }
 .timer-details i {
-  color: #ffffff;
+  color: #0f2a96;
   position: relative;
   top: -8px;
   font-size: 16px;
